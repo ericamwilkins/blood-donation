@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+
+html, body
+{
+    height: 100%;
+    font-family: 'Vidaloka', serif;
+    background-color:;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+}
+img
+{
+    height:400px;
+}
+section
+{
+    display:flex;
+    flex-direction:column;
+}
+ul
+{
+    margin:2;
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: 24%;
+    height: 20%;
+    text-align: center;
+    border: 2px #ff893f solid;
+    font-size: 2em;
+}
+li:hover
+{
+    background-color: #ff0c00;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.fullscreen-bg 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.fullscreen-bg__video 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.title
+{
+    font-size: 65px;
+}
+.box
+{
+    background-color: rgba(255, 255, 255, .5);
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+/*.box:hover
+{
+    background-color: rgba(255, 255, 255, 1);
+} */
+p
+{
+    font-size: 20px;
+}
+img
+{
+    height: 400px;
+}
+h2
+{
+    color: white;
+    font-size: 35px;
+}
+span
+{
+    color: black;
+    background-color: white;
+}
+footer
+{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+html, body
+{
+    height: 100%;
+    font-family: 'Vidaloka', serif;
+}
+.fullscreen-bg 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.fullscreen-bg__video 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.title
+{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+ul
+{
+    margin:2;
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+    border: 2px #ff893f solid;
+    font-size: 2em;
+}
+li:hover
+{
+    background-color: #ff0c00;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+footer
+{
+    color: white;
+    text-align: center;
+}
